@@ -232,6 +232,15 @@ a:focus {
     color: white !important;
   }
 }
+
+.elastic-video {
+    position: relative;
+    padding-bottom: 55%;
+    padding-top: 15px;
+    height: 0;
+    overflow: hidden;
+}
+
 .btn-circle {
   width: 70px;
   height: 70px;
