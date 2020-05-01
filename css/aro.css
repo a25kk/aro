@@ -211,7 +211,7 @@ a:focus {
   }
 }
 .intro-text {
-  font-size: 12px;
+  font-size: 16px !important;
   font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
 }
@@ -239,6 +239,11 @@ a:focus {
     padding-top: 15px;
     height: 0;
     overflow: hidden;
+}
+
+audio, canvas, video {
+    display: inline-block;
+    width: 100%;
 }
 
 .btn-circle {
